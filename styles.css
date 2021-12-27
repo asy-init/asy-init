@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li, a, button {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 14px 1.5%;
+  background-color: #242522;
+}
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+.nav__links {
+  list-style: none ;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s ;
+}
+.nav__links li a:hover {
+  color: #0088a9;
+}
+button {
+  background-color: rgba(0,136,169,1);
+  transition: all 0.3s ease 0s ;
+  border-radius: 50px;
+  margin-right: 20px;
+  padding: 9px 25px ;
+  cursor: pointer;
+  border: none;
+}
+button:hover {
+  background-color: rgba(0,136,169,0.8);
+}
+.github_name {
+  transform: translate(50%,50%);
+  position: absolute;
+  padding: 10px;
+  bottom: 50%;
+  right: 50%;
+  z-index: 1;
+
+}
+
+.github_name a {
+  font-family: 'Barlow', sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 60px;
+}
+.github_name a:hover {
+  color: #0088a9;
+}
+.github_name p {
+  color : white;
+}
+.vid {
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: 0;
+}
